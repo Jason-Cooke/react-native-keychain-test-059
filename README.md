@@ -10,4 +10,4 @@ Steps to reproduce:
 
 (Also tested on Google Pixel 1, where the test data can be decrypted.)
 
-Why saving this much data in the password field? The data saved is json, containing accessToken and refreshToken, together with expiration data. Depending on which service providing the token, the length will wary, and some tokens can be more than 2000 characters.
+Why saving this much data in the password field? The data saved is json, containing accessToken and refreshToken, together with expiration data. Depending on which service providing the token, the length will vary, and some tokens can be more than 2000 characters.
